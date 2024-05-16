@@ -100,7 +100,7 @@ var SocketOptions = []socketOption{
 	{"enforcedencryption", 0, SRTO_ENFORCEDENCRYPTION, bindingPre, tBoolean},
 	{"peeridletimeo", 0, SRTO_PEERIDLETIMEO, bindingPre, tInteger32},
 	{"packetfilter", 0, SRTO_PACKETFILTER, bindingPre, tString},
-	{"bonding", 0, SRTO_GROUPCONNECT, bindingPre, tBoolean},
+	{"bonding", 0, SRTO_GROUPCONNECT, bindingPre, tInteger32},
 }
 
 func setSocketLingerOption(s C.int, li int32) error {
