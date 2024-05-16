@@ -1,4 +1,4 @@
-module github.com/Gilliam6/srtgo/v2
+module github.com/Gilliam6/srtgo
 
 go 1.12
 
